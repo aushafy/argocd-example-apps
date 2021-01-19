@@ -18,3 +18,5 @@ spec:
         name: guestbook-ui-prod
         ports:
         - containerPort: 80
+      nodeSelector:
+        cloud.google.com/gke-nodepool: pool-production
